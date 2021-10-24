@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<title>Main Page</title>
+
+<link rel="stylesheet" href="C:\Users\Devon Biancarelli\Desktop\Capstone Project\CSS\style.css">
+<div class="topnav">
+  <a class="active" href="#Banner">Home</a>
+  <a href="#AboutUsPage">About Us</a>
+  <a href="#ContactUsPage">Contact Us</a>
+  <a href="#WorkoutPage">Past Workouts</a>
+</div>
+
+<section class="Home" id="Banner">
+  <h1>Bianc Fitness</h1>
+  <div class='box'>
+
+    <form action="/action_page.php">
+
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+      <label for="Height">Height</label>
+      <input type="text" id="Height" name="Height" placeholder="Your height..">
+
+      <label for="Weight">Weight</label>
+      <input type="text" id="Weight" name="Weight" placeholder="Your Weight(lbs)..">
+
+      <label for="Age">Age</label>
+      <input type="text" id="Age" name="Age" placeholder="Your Age..">
+
+      <label for="Sex">Sex</label>
+      <select id="Sex" name="Sex">
+        <option value="" disabled selected>Select</option>
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+        <option value="n/a">N/A</option>
+      </select>
+
+      <input type="submit" value="Submit">
+
+
+
+    </form>
+  </div>
+
+</section>
+<section class="AboutUs" id="AboutUsPage">
+  <h1>About Us</h1>
+  <div class="box">
+    <label for="WWD"><b>What We Do</b></label>
+    <p>We provide a platform for users to record and log their workouts so that
+      they can keep track and create fitness goals</p>
+    <label for="WWDI"><b>Why We Do It</b></label>
+    <p>We do this because we want users to have a central location to
+      keep track of their fitness goals. We want to provide a platform
+      for others that can provide additional information and advice to help
+      increase the chances for people to meet their goals</p>
+    <label for="OG"><b>Our Goal</b></label>
+    <p>Our goal is to help others reach their fitness goal</p>
+  </div>
+</section>
+
+
+
+
+<section class="ContactUs" id="ContactUsPage">
+  <h1>Contact Us</h1>
+  <div class="box">
+    <h2>Contact Via email</h2>
+    <p>dmb12121@vsc.edu
+    <h2>Contact Via phone</h2>
+    <p>(203)-Bianc-Fitness
+    <h2>Contact Via messenger</h2>
+    <form action="action_page.php">
+      <div class="container">
+        <label for="fname">Name</label>
+        <input type="text" id="fullname" name="fullname" placeholder="Your name..">
+
+        <label for="lname">Your Email</label>
+        <input type="text" id="Pmail" name="Pmail" placeholder="Your Email..">
+
+        <label for="subject">Subject</label>
+        <textarea id="SubjectLine" name="SubjectLine" rows="4" cols="70"></textarea>
+
+        <input type="submit" value="Submit">
+      </div>
+    </form>
+  </div>
+</section>
+<section class="Workouts" id="WorkoutPage">
+  <h1>Your Workouts</h1>
+</section>
+
+
+</html>
