@@ -15,7 +15,7 @@
   <h1>Bianc Fitness</h1>
   <div class='box'>
 
-    <form action="/action_page.php">
+    <form>
 
       <label for="fname">First Name</label>
       <input type="text" id="fname" name="firstname" placeholder="Your name..">
@@ -40,10 +40,7 @@
         <option value="n/a">N/A</option>
       </select>
 
-      <input type="submit" value="Submit">
-
-
-
+      <input type="submit" value="Calc">
     </form>
   </div>
 
@@ -75,20 +72,20 @@
     <h2>Contact Via phone</h2>
     <p>(203)-Bianc-Fitness
     <h2>Contact Via messenger</h2>
-    <form action="action_page.php">
-      <div class="container">
-        <label for="fname">Name</label>
-        <input type="text" id="fullname" name="fullname" placeholder="Your name..">
+    <form method="post" action="C:\Users\Devon Biancarelli\Desktop\Capstone Project\PHP\EmailForm.php">
+    <div class="container">
+      <label for="fname">Name</label>
+      <input type="text" id="fullname" name="fullname" placeholder="Your name..">
 
-        <label for="lname">Your Email</label>
-        <input type="text" id="Pmail" name="Pmail" placeholder="Your Email..">
+      <label for="lname">Your Email</label>
+      <input type="text" id="Pmail" name="Pmail" placeholder="Your Email..">
 
-        <label for="subject">Subject</label>
-        <textarea id="SubjectLine" name="SubjectLine" rows="4" cols="70"></textarea>
+      <label for="subject">Subject</label>
+      <textarea id="SubjectLine" name="SubjectLine" rows="4" cols="70"></textarea>
 
-        <input type="submit" value="Submit">
-      </div>
-    </form>
+      <button type="submit">Submit</button>
+  </div>
+  </form>
   </div>
 </section>
 <section class="Workouts" id="WorkoutPage">
