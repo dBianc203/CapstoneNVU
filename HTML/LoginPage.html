@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html>
+<head>
+  <title>Main Page</title>
+<script src="C:\Users\Devon Biancarelli\Desktop\Capstone Project\Jscript\BMI.js" defer></script>
+</head>
 
-<title>Main Page</title>
 
 <link rel="stylesheet" href="C:\Users\Devon Biancarelli\Desktop\Capstone Project\CSS\style.css">
 <div class="topnav">
@@ -23,14 +26,14 @@
       <label for="lname">Last Name</label>
       <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
-      <label for="Height">Height</label>
-      <input type="text" id="Height" name="Height" placeholder="Your height..">
+      <label for="Height">Height(in Inches)</label>
+      <input type="number" id="Height" name="Height" placeholder="Your height..">
 
-      <label for="Weight">Weight</label>
-      <input type="text" id="Weight" name="Weight" placeholder="Your Weight(lbs)..">
+      <label for="Weight">Weight(In Lbs)</label>
+      <input type="number" id="Weight" name="Weight" placeholder="Your Weight(lbs)..">
 
       <label for="Age">Age</label>
-      <input type="text" id="Age" name="Age" placeholder="Your Age..">
+      <input type="number" id="Age" name="Age" placeholder="Your Age..">
 
       <label for="Sex">Sex</label>
       <select id="Sex" name="Sex">
@@ -40,7 +43,11 @@
         <option value="n/a">N/A</option>
       </select>
 
-      <input type="submit" value="Calc">
+       <button type="button" onclick="Calculate()">Calculate BMI</button>
+       <div class="bmi-value">
+           <h4>BMI Value: </h4>
+           <div id="bmi-output"></div>
+         </div>
     </form>
   </div>
 
