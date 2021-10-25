@@ -26,7 +26,11 @@ h1 {
   background-color: #f2f2f2;
   padding: 20px;
 }
-
+.bmi-value{
+    background-color: yellow;
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
 section {
   height: 100vh;
 }
@@ -40,7 +44,15 @@ input[type=text], select {
   border-radius: 4px;
   box-sizing: border-box;
 }
-
+input[type=number], select {
+  width: 100%;
+  padding: 12px 15px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 3px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
 /* Style the submit button */
 input[type=submit] {
   width: 100%;
