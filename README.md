@@ -11,6 +11,8 @@ The about us page is brief, just a generic page that basically explains why this
 ![](READMEimages/Contact%20Us%20ex%201.jpg)
 The Contact us page will be used for any user that has questions related to the site, currently there is a form setup to enter your name,email, and subject of what you want to send. The final version will have a full-functional form used to send an email to a certain destination.
 
+EDIT 11/1/2021: Looking for a hosting service so that I can run the php script that will successfully send me an email through the contact form. will update and post link to working link that will run code
+
 ![](READMEimages/Your%20Workouts%20ex%201.jpg)
 This will be the main part of the website. Here you can enter your workouts and view pastworkouts aswell. Right now, there is nothing but the finished version will have a working system where you can log your exercises.Most of the project work will focus on this part of the website, everything above is more for aesthetics.
 
