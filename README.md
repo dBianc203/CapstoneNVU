@@ -3,7 +3,7 @@ Capstone Project for NVU. This project is a website that allows users to keep tr
 ![](READMEimages/BMI%20HomePage.jpg)
 The first page you'll see when entering the website is the home page, this is where you'll enter all your information. Things like your height,weight, and age will all be taken into consideration when calculating your BMI.
 
-EDIT 11/1/2021 The home page will now allow you to calculate your BMI based on the info given, and then display your BMI at the bottom of the home page.
+EDIT 11/1/2021 The home page will now allow you to calculate your BMI based on the info given, and then display your BMI at the bottom of the home page. BMI is calculated using the following formula: [[weight (lb) / height (in) / height (in)] x 703] (CDC)
 
 ![](READMEimages/About%20Us%20ex%201.jpg)
 The about us page is brief, just a generic page that basically explains why this website/project exists and what it's meant to do.
