@@ -4,6 +4,7 @@ Capstone Project for NVU. This project is a website that allows users to keep tr
 The first page you'll see when entering the website is the home page, this is where you'll enter all your information. Things like your height,weight, and age will all be taken into consideration when calculating your BMI.
 
 EDIT 11/1/2021 The home page will now allow you to calculate your BMI based on the info given, and then display your BMI at the bottom of the home page. BMI is calculated using the following formula: [[weight (lb) / height (in) / height (in)] x 703] (CDC)
+I will also add an indicator of what your BMI means for you and have it change over time (About Adult BMI)
 
 ![](READMEimages/About%20Us%20ex%201.jpg)
 The about us page is brief, just a generic page that basically explains why this website/project exists and what it's meant to do.
@@ -20,4 +21,5 @@ This will be the main part of the website. Here you can enter your workouts and 
 This bar will bring bring the user to the part of the page that they click on, so that they dont have to scroll down to whatever part of the page they want to be at. Should have it so that the bar stays on the top of the users screen regardless of what page they are on, and not just the home page.
 
 # References
+“About Adult BMI.” Centers for Disease Control and Prevention. Centers for Disease Control and Prevention, August 27, 2021. https://www.cdc.gov/healthyweight/assessing/bmi/adult_bmi/index.html. 
 “CDC - Calculating BMI Using the English System - BMI for Age Training Course - DNPAO.” Centers for Disease Control and Prevention. Centers for Disease Control and Prevention, May 9, 2014. https://www.cdc.gov/nccdphp/dnpao/growthcharts/training/bmiage/page5_2.html. 
