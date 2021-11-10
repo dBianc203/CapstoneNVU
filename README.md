@@ -1,4 +1,7 @@
 # CapstoneNVU (Will Update Images 10/29/21)
+
+LINK ADDRESS: https://biancfitness.000webhostapp.com/
+
 Capstone Project for NVU. This project is a website that allows users to keep track of their workouts along with keeping track of their BMI
 ![](READMEimages/BMI%20HomePage.jpg)
 The first page you'll see when entering the website is the home page, this is where you'll enter all your information. Things like your height,weight, and age will all be taken into consideration when calculating your BMI.
