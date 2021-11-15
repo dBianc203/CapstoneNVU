@@ -1,4 +1,4 @@
-# CapstoneNVU (Will Update Images 10/29/21)
+# CapstoneNVU
 
 LINK ADDRESS: https://biancfitness.000webhostapp.com/
 
@@ -9,6 +9,9 @@ The first page you'll see when entering the website is the home page, this is wh
 EDIT 11/1/2021 The home page will now allow you to calculate your BMI based on the info given, and then display your BMI at the bottom of the home page. BMI is calculated using the following formula: [[weight (lb) / height (in) / height (in)] x 703] (CDC)
 I will also add an indicator of what your BMI means for you and have it change over time (About Adult BMI)
 
+edit 11/15/2021
+Added BMI status that displays interpritation based on BMI numbers calculated and the status is determined based on information from the CDC https://www.cdc.gov/healthyweight/assessing/bmi/adult_bmi/index.html
+
 ![](READMEimages/About%20Us%20ex%201.jpg)
 The about us page is brief, just a generic page that basically explains why this website/project exists and what it's meant to do.
 
@@ -16,6 +19,9 @@ The about us page is brief, just a generic page that basically explains why this
 The Contact us page will be used for any user that has questions related to the site, currently there is a form setup to enter your name,email, and subject of what you want to send. The final version will have a full-functional form used to send an email to a certain destination.
 
 EDIT 11/1/2021: Looking for a hosting service so that I can run the php script that will successfully send me an email through the contact form. will update and post link to working link that will run code
+
+EDIT 11/15/2021
+Removed form that sends email, currently having issues with hosting site and sending emails (port issue?) May reintroduce in future 
 
 ![](READMEimages/Your%20Workouts%20ex%201.jpg)
 This will be the main part of the website. Here you can enter your workouts and view pastworkouts aswell. Right now, there is nothing but the finished version will have a working system where you can log your exercises.Most of the project work will focus on this part of the website, everything above is more for aesthetics.
