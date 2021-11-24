@@ -64,17 +64,21 @@
     <h2>Contact Via phone</h2>
     <p>(203)-Bianc-Fitness
     <h2>Contact Via messenger</h2>
-    <form method="post" action="C:\Users\Devon Biancarelli\Desktop\Capstone Project\PHP\EmailForm.php">
-      <div class="container">
-        <label for="fname">Name</label>
-        <input type="text" id="fullname" name="fullname" placeholder="Your name..">
-        <label for="lname">Your Email</label>
-        <input type="text" id="Pmail" name="Pmail" placeholder="Your Email..">
-        <label for="subject">Subject</label>
-        <textarea id="SubjectLine" name="SubjectLine" rows="4" cols="70"></textarea>
-        <button type="submit">Submit</button>
-      </div>
-    </form>
+    <form action="PHP/SendEmail.php" method="POST">
+    <div class="container">
+      <label for="fname">Name</label>
+      <input type="text" id="fullname" name="fullname" placeholder="Your name..">
+
+      <label for="Pmail">Your Email</label>
+      <input type="text" id="Pmail" name="Pmail" placeholder="Your Email..">
+
+      <label for="subject">Subject</label>
+      <textarea id="SubjectLine" name="SubjectLine" rows="4" cols="70"></textarea>
+
+      <button type="submit">Submit</button>
+  </div>
+  </form>
+
   </div>
 </section>
 <section class="Workouts" id="WorkoutPage">
