@@ -13,6 +13,43 @@ h1 {
   text-align: center;
 }
 
+h3 {
+  color: black;
+  font-size: 3rem;
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  text-align: center;
+  width: 100%;
+}
+
+th {
+  height: 25px;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #dcdcdd;
+}
+
+fieldset {
+  background-color: #ffffff;
+  border: 3px solid black;
+  opacity: 0.9;
+  padding: 50px;
+  margin: 15px;
+}
+
+.center {
+  display: table;
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
 .box {
   background-color: #ffffff;
   border: 3px solid black;
@@ -26,11 +63,19 @@ h1 {
   background-color: #f2f2f2;
   padding: 20px;
 }
-.bmi-value{
-    background-color: yellow;
-    display: grid;
-    grid-template-rows: 50% 50%;
+
+.bmi-value {
+  background-color: yellow;
+  display: grid;
+  grid-template-rows: 25% 25%;
 }
+
+.bmi-status {
+  background-color: green;
+  display: grid;
+  grid-template-rows: 20% 20%;
+}
+
 section {
   height: 100vh;
 }
@@ -44,6 +89,7 @@ input[type=text], select {
   border-radius: 4px;
   box-sizing: border-box;
 }
+
 input[type=number], select {
   width: 100%;
   padding: 12px 15px;
@@ -53,6 +99,7 @@ input[type=number], select {
   border-radius: 4px;
   box-sizing: border-box;
 }
+
 /* Style the submit button */
 input[type=submit] {
   width: 100%;
@@ -91,6 +138,12 @@ input[type=submit]:hover {
 
 .Workouts {
   background-image: url("C:/Users/Devon Biancarelli/Desktop/Capstone Project/HTML/Images/FoodDiet.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.History {
+  background-image: url("C:/Users/Devon Biancarelli/Desktop/Capstone Project/HTML/Images/WorkoutHist.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
