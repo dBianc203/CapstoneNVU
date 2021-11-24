@@ -23,7 +23,7 @@ EDIT 11/1/2021: Looking for a hosting service so that I can run the php script t
 EDIT 11/15/2021
 Removed form that sends email, currently having issues with hosting site and sending emails (port issue?) May reintroduce in future 
 
-![](READMEimages/YourWorkout%ex.jpg)
+![](READMEimages/YourWorkout%20ex.jpg)
 This will be the main part of the website. Here you can enter your workouts and view pastworkouts aswell. Right now, there is nothing but the finished version will have a working system where you can log your exercises.Most of the project work will focus on this part of the website, everything above is more for aesthetics.
 
 ![](READMEimages/WorkoutHist.jpg)
