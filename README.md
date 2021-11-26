@@ -32,7 +32,7 @@ This will be the main part of the website. Here you can enter your workouts and 
 ![](READMEimages/WorkoutHist.jpg)
 11/23/2021 - Displays history of workouts 
 
-![](READMEimages/Home%20Bar%201.jpg)
+![](READMEimages/NavBarNew.jpg)
 This bar will bring bring the user to the part of the page that they click on, so that they dont have to scroll down to whatever part of the page they want to be at. Should have it so that the bar stays on the top of the users screen regardless of what page they are on, and not just the home page.
 
 # References
