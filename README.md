@@ -37,5 +37,5 @@ This bar will bring bring the user to the part of the page that they click on, s
 
 # References
 “About Adult BMI.” Centers for Disease Control and Prevention. Centers for Disease Control and Prevention, August 27, 2021. https://www.cdc.gov/healthyweight/assessing/bmi/adult_bmi/index.html. <br />
-“CDC - Calculating BMI Using the English System - BMI for Age Training Course - DNPAO.” Centers for Disease Control and Prevention. Centers for Disease Control and Prevention, May 9, 2014. https://www.cdc.gov/nccdphp/dnpao/growthcharts/training/bmiage/page5_2.html. 
+“CDC - Calculating BMI Using the English System - BMI for Age Training Course - DNPAO.” Centers for Disease Control and Prevention. Centers for Disease Control and Prevention, May 9, 2014. https://www.cdc.gov/nccdphp/dnpao/growthcharts/training/bmiage/page5_2.html. <br />
 “About Child &amp; Teen BMI.” Centers for Disease Control and Prevention, Centers for Disease Control and Prevention, 17 Mar. 2021, https://www.cdc.gov/healthyweight/assessing/bmi/childrens_bmi/about_childrens_bmi.html#percentile. 
