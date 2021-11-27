@@ -3,7 +3,7 @@
 LINK ADDRESS: https://biancfitness.000webhostapp.com/
 
 Capstone Project for NVU. This project is a website that allows users to keep track of their workouts along with keeping track of their BMI
-![](READMEimages/New%20HomePage.jpg)
+![](READMEimages/NewHomeScreen.jpg)
 The first page you'll see when entering the website is the home page, this is where you'll enter all your information. Things like your height,weight, and age will all be taken into consideration when calculating your BMI.
 
 EDIT 11/1/2021 The home page will now allow you to calculate your BMI based on the info given, and then display your BMI at the bottom of the home page. BMI is calculated using the following formula: [[weight (lb) / height (in) / height (in)] x 703] (CDC)
@@ -35,6 +35,8 @@ This will be the main part of the website. Here you can enter your workouts and 
 ![](READMEimages/NavBarNew.jpg)
 This bar will bring bring the user to the part of the page that they click on, so that they dont have to scroll down to whatever part of the page they want to be at. Should have it so that the bar stays on the top of the users screen regardless of what page they are on, and not just the home page.
 
+![](READMEimages/Footer.jpg)
+11/26/2021 - Added a footer to the website for navigation
 # References
 “About Adult BMI.” Centers for Disease Control and Prevention. Centers for Disease Control and Prevention, August 27, 2021. https://www.cdc.gov/healthyweight/assessing/bmi/adult_bmi/index.html. <br />
 “CDC - Calculating BMI Using the English System - BMI for Age Training Course - DNPAO.” Centers for Disease Control and Prevention. Centers for Disease Control and Prevention, May 9, 2014. https://www.cdc.gov/nccdphp/dnpao/growthcharts/training/bmiage/page5_2.html. <br />
