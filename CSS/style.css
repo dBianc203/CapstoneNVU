@@ -11,6 +11,7 @@ h1 {
   color: white;
   font-size: 4rem;
   text-align: center;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 section {
@@ -167,4 +168,13 @@ input[type=submit]:hover {
 .topnav a.active {
   background-color: #04AA6D;
   color: white;
+}
+a {
+  color:white;
+}
+footer {
+  background: #303036;
+  color: #d3d3d3;
+  height: 400px;
+  text-align: left;
 }
