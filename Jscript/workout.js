@@ -7,21 +7,19 @@ var workout = function() {
   this.select = function() {
     var workout = this.arrWorkout;
     var table = document.getElementById("Table").getElementsByTagName('tbody')[0];
-    var resultTotalHours = document.getElementById("resultTotalHours");
-    var totalHours = 0;
+    var resultTotalMin = document.getElementById("resultTotalMin");
+    var totalMin = 0;
     table.innerHTML = "";
     for (w in workout) {
       var row = table.insertRow();
-      totalHours += parseInt(workout[w]['Time']);
+      totalMin += parseInt(workout[w]['Time']);
       row.insertCell(0).innerHTML = workout[w]['Time'] + 'm';
       row.insertCell(1).innerHTML = workout[w]['Type'];
       row.insertCell(2).innerHTML = decodeURIComponent(workout[w]['Date']);
-
       row.insertCell(3).innerHTML = decodeURIComponent(workout[w]['BMI']);
-
       row.insertCell(4).innerHTML = '<button  type=\'button\' class=\'delete\' value=' + w + '> &#x268A; </button>';
     }
-    resultTotalHours.innerHTML = '<h1 class=\'text-center\'>' + totalHours + ' Minutes of exercise<\h1>';
+    resultTotalMin.innerHTML = '<h1 class=\'text-center\'>' + totalMin + ' Minutes of exercise<\h1>';
 
     var del = document.getElementsByClassName("delete");
     var w = this;
