@@ -6,7 +6,7 @@ h1 {
   font-family: 'Poiret One';
   font-size: 22px;
 }
-
+/* all elements of h1,html,and body will have the text color of white with proper shadow to avoid visual issues */
 h1 {
   color: white;
   font-size: 4rem;
@@ -17,7 +17,8 @@ h1 {
 section {
   height: 100vh;
 }
-
+/* Borders are collapsed into a single border when possible */
+/* text centers */
 table {
   border-collapse: collapse;
   text-align: center;
@@ -27,7 +28,7 @@ table {
 th {
   height: 25px;
 }
-
+/* every odd portion will have the set color compared to even valued entries */
 tbody tr:nth-child(odd) {
   background-color: #dcdcdd;
 }
@@ -39,16 +40,28 @@ fieldset {
   padding: 50px;
   margin: 15px;
 }
+/* text inside the footer will be white for visual */
+a {
+  color:white;
+}
+/* proper dark grey background for the footer section of the website along with the text aligned to the left for navigation*/
+footer {
+  background: #303036;
+  color: #d3d3d3;
+  height: 400px;
+  text-align: left;
+}
+/* CLASS SELECTORS*/
 
 .center {
   display: table;
   margin: 0 auto;
 }
-
+/* class that aligns text*/
 .text-center {
   text-align: center;
 }
-
+/* class used for most of the website so that the background picture is seen because of the opacity */
 .box {
   background-color: #ffffff;
   border: 3px solid black;
@@ -62,19 +75,78 @@ fieldset {
   background-color: #f2f2f2;
   padding: 20px;
 }
-
+/* box that shows BMI value is highlighted in yellow*/
 .bmi-value {
   background-color: yellow;
   display: grid;
   grid-template-rows: 25% 25%;
 }
-
+/* box that shows BMI status is highlighted in green*/
 .bmi-status {
   background-color: green;
   display: grid;
   grid-template-rows: 20% 20%;
 }
+/* CLASSES GO WITH SECTION OF WEBSITE THAT HAS THE IMAGE PROVIDED IN THE BACKGROUND */
+.Home {
+  background-image: url("C:/Users/Devon Biancarelli/Desktop/Capstone Project/HTML/Images/Gpullup.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
+.AboutUs {
+  background-image: url("C:/Users/Devon Biancarelli/Desktop/Capstone Project/HTML/Images/Wrunning.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: block;
+}
+
+.ContactUs {
+  background-image: url("C:/Users/Devon Biancarelli/Desktop/Capstone Project/HTML/Images/Weights.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.Workouts {
+  background-image: url("C:/Users/Devon Biancarelli/Desktop/Capstone Project/HTML/Images/FoodDiet.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.History {
+  background-image: url("C:/Users/Devon Biancarelli/Desktop/Capstone Project/HTML/Images/WorkoutHist.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* CLASSES GO WITH SECTION OF WEBSITE THAT HAS THE IMAGE PROVIDED IN THE BACKGROUND */
+
+
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Adds color to the active/current link */
+.topnav a.active {
+  background-color: grey;
+  color: white;
+}
 
 input[type=text], select {
   width: 100%;
@@ -107,74 +179,7 @@ input[type=submit] {
   border-radius: 4px;
   cursor: pointer;
 }
-
+/*styles the submit button when its being hovered over */
 input[type=submit]:hover {
   background-color: #45a049;
-}
-
-.Home {
-  background-image: url("C:/Users/Devon Biancarelli/Desktop/Capstone Project/HTML/Images/Gpullup.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.AboutUs {
-  background-image: url("C:/Users/Devon Biancarelli/Desktop/Capstone Project/HTML/Images/Wrunning.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: block;
-}
-
-.ContactUs {
-  background-image: url("C:/Users/Devon Biancarelli/Desktop/Capstone Project/HTML/Images/Weights.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.Workouts {
-  background-image: url("C:/Users/Devon Biancarelli/Desktop/Capstone Project/HTML/Images/FoodDiet.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.History {
-  background-image: url("C:/Users/Devon Biancarelli/Desktop/Capstone Project/HTML/Images/WorkoutHist.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.topnav {
-  background-color: #333;
-  overflow: hidden;
-}
-
-/* Style the links inside the navigation bar */
-.topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-/* Change the color of links on hover */
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-/* Add a color to the active/current link */
-.topnav a.active {
-  background-color: grey;
-  color: white;
-}
-a {
-  color:white;
-}
-footer {
-  background: #303036;
-  color: #d3d3d3;
-  height: 400px;
-  text-align: left;
 }
