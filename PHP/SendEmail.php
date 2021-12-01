@@ -1,11 +1,12 @@
 <html>
- 
+   
    <head>
-      <title>Sending HTML email using PHP</title>
+        <title>Thank you for contacting</title>
    </head>
    
    <body>
-?>
+      
+    ?>
       <?php
          $to = "dbiancarellimilano@gmail.com";
          $subject = "Message from Website";
@@ -22,5 +23,8 @@
             echo "Message could not be sent...";
          }
       ?>
-  </body>
+        <h1>Thank you for contacting us </h1>
+        <p>A represenative will be in touch shortly</p>
+        <a href="\">Return to home page </a>
+         </body>
 </html>
