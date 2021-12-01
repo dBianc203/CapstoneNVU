@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <title>Main Page</title>
-  <script src="C:\Users\Devon Biancarelli\Desktop\Capstone Project\Jscript\BMI.js" defer></script>
+<!-- Link to javascript that calculates users BMI --> 
+<script src="Jscript\BMIcalc.js" defer></script>
+<!-- Link to javascript that calculates users BMI -->
+<!-- Link to stylesheet for the website -->
+<link rel="stylesheet" href="/CSS/NewStyle.css">
+<!-- Link to stylesheet for the website -->
 </head>
-<link rel="stylesheet" href="C:\Users\Devon Biancarelli\Desktop\Capstone Project\CSS\style.css">
+<!-- Allows user to pick the section of the website and brings them to that section -->
 <div class="topnav">
   <a class="active" href="#Banner">Home</a>
   <a href="#AboutUsPage">About Us</a>
@@ -13,16 +17,23 @@
   <a href="#WorkoutPage">New Workout</a>
   <a href="#History">Workout History</a>
 </div>
+<!-- Allows user to pick the section of the website and brings them to that section -->
 <section class="Home" id="Banner">
   <h1>Bianc Fitness</h1>
   <div class='box'>
+<!-- This form will allow users to input their height,weight,age,and sex/gender
+this is used by the script above to caluclate and display the BMI of the user 
+based on their input -->
     <form>
-      <label for="Height">Height (in Inches)</label>
+      <label for="Height">Height(in Inches)</label>
       <input type="number" id="Height" name="Height" placeholder="Your height..">
-      <label for="Weight">Weight (In Lbs)</label>
+
+      <label for="Weight">Weight(In Lbs)</label>
       <input type="number" id="Weight" name="Weight" placeholder="Your Weight(lbs)..">
+
       <label for="Age">Age</label>
       <input type="number" id="Age" name="Age" placeholder="Your Age..">
+
       <label for="Sex">Sex</label>
       <select id="Sex" name="Sex">
         <option value="" disabled selected>Select</option>
@@ -30,18 +41,25 @@
         <option value="Female">Female</option>
         <option value="n/a">N/A</option>
       </select>
-      <button type="button" onclick="Calculate()">Calculate BMI</button>
-      <div class="bmi-value">
-        <h4>BMI Value: </h4>
-        <div id="bmi-output"></div>
+<!-- users clicks this button to display their BMI calculated by the script
+and what their status is -->
+       <button type="button" onclick="Calculate()">Calculate BMI</button>
+       <div class="bmi-value">
+           <h4>BMI Value: </h4>
+           <div id="bmi-output"></div>
         <div class="bmi-status">
-          <h4>BMI Status: <div id="bmi-status"></div>
-          </h4>
-
-        </div>
-    </form>
+        <h4>BMI Status: <div id="bmi-status"></div> </h4>
+         </div>
+    <!-- users clicks this button to display their BMI calculated by the script
+and what their status is -->
   </div>
+</form>
+<!-- This form will allow users to input their height,weight,age,and sex/gender
+this is used by the script above to caluclate and display the BMI of the user 
+based on their input -->
 </section>
+<!-- About us page/section, using labels and paragraphs. Nothing very complex
+for this section -->
 <section class="AboutUs" id="AboutUsPage">
   <h1>About Us</h1>
   <div class="box">
@@ -57,6 +75,15 @@
     <p>Our goal is to help others reach their fitness goal</p>
   </div>
 </section>
+<!-- About us page/section, using labels and paragraphs. Nothing very complex
+for this section -->
+
+
+<!-- Contact page/ this page uses the PHP file to send a message to my email
+the user can enter their name, their email, and what they want to message me
+The PHP file has more detail on how the process work, but this section mostly
+relies on the form created that allows user input and will store them for php
+-->
 <section class="ContactUs" id="ContactUsPage">
   <h1>Contact Us</h1>
   <div class="box">
@@ -64,6 +91,9 @@
     <p>dmb12121@vsc.edu
     <h2>Contact Via phone</h2>
     <p>(203)-Bianc-Fitness
+    
+    
+    
     <h2>Contact Via messenger</h2>
     <form action="PHP/SendEmail.php" method="POST">
     <div class="container">
@@ -79,7 +109,11 @@
       <button type="submit">Submit</button>
   </div>
   </form>
-
+  <!-- Contact page/ this page uses the PHP file to send a message to my email
+the user can enter their name, their email, and what they want to message me
+The PHP file has more detail on how the process work, but this section mostly
+relies on the form created that allows user input and will store them for php
+-->
   </div>
 </section>
 <section class="Workouts" id="WorkoutPage">
@@ -91,9 +125,13 @@
       <form id="Form">
         <fieldset>
           <legend>New Workout</legend>
+          <!-- allow user to enter(in minutes) how long they worked out for -->
           <label for="Time">Time:</label>
+          <!-- user is required to add a time or cannot advance -->
           <input type="text" id="Time" name="Time" placeholder="Time spent" pattern="[0-9]{1,2}" required>
           <label for="Type">Muscles Worked:</label>
+          <!-- give user list of options to choose from about the muscle type 
+          that was worked//// should add cardio -->
           <select id="Type" name="Type" required>
             <option value=""></option>
             <option>Chest</option>
@@ -105,6 +143,8 @@
             <option>Calves</option>
             <option>Back</option>
           </select>
+          <!-- user enters the date with a provided format, this is also a 
+          required input or the user cannot submit -->
           <label for="Date">Date:</label>
           <input type="text" id="Date" name="Date" placeholder="mm/dd/yyyy" pattern="(0[1-9]|1[012])[- /.](0[1-9]|[12][0-9]|3[01])[- /.](19|20)\d\d" required>
           <label for="Type">BMI:</label>
@@ -114,10 +154,14 @@
       </form>
     </section>
   </section>
+  <!-- section allows users to view their past workout time and length based 
+  on the input they provided on previous workout sections -->
     <section class="History" id="History">
       <h1>Workout History</h1>
       <fieldset>
         <legend>Past Workouts</legend>
+        <!-- table used to present time,type of workout,the date it happened
+        their BMI and if they want to delete the entry -->
         <table id="Table">
           <thead>
             <tr>
@@ -132,12 +176,14 @@
           </tbody>
         </table>
       </fieldset>
-    <section id="resultTotalMin"></section>
+    <section id="resultTotalHours"></section>
   </div>
-  <script src="C:\Users\Devon Biancarelli\Desktop\Capstone Project\Jscript\workout.js" type="text/javascript"></script>
-  <script src="C:\Users\Devon Biancarelli\Desktop\Capstone Project\Jscript\util.js" type="text/javascript"></script>
+  <!-- need to update script name/ janky on hosting site may need to 
+  change file location for it to work -->
+  <script src="Jscript\workout.js" type="text/javascript"></script>
+  <script src="Jscript\util.js" type="text/javascript"></script>
 </section>
-  <!-- // footer -->
+<!-- // footer -->
 <footer>
   Navigation:
   <li><a href="#Banner">Home(BMI Calculator)</a></li>
