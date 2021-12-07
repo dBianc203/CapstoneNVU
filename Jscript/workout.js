@@ -3,7 +3,10 @@ var workout = function() {
     this.insert = function(data) {
         this.arrWorkout.push(data);
         this.select();
+    //used to add new items to my array
     };
+  //returns/gets the collection of elements inside the table i created in my HTML file, and takes from the given tag name
+  //which is "tbody" 
   this.select = function() {
     var workout = this.arrWorkout;
     var table = document.getElementById("Table").getElementsByTagName('tbody')[0];
