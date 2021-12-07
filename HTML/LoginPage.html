@@ -147,10 +147,14 @@ relies on the form created that allows user input and will store them for php
           </select>
           <!-- user enters the date with a provided format, this is also a 
           required input or the user cannot submit -->
-          <label for="Date">Date:</label>
+         <label for="Date">Date:</label>
           <input type="text" id="Date" name="Date" placeholder="mm/dd/yyyy" pattern="(0[1-9]|1[012])[- /.](0[1-9]|[12][0-9]|3[01])[- /.](19|20)\d\d" required>
           <label for="Type">BMI:</label>
           <input type="text" id="BMI" name="BMI" placeholder="BMI(#)">
+          <label for="Type">Calories:</label>
+          <input type="text" id="Calories" name="Calories" placeholder="Enter Calories">
+          <label for="Type">Food/Drink Consumed:</label>
+          <input type="text" id="Food" name="Food" placeholder="What Food/Drink did you consume?">
           <button type="submit" class="add">Add</button>
         </fieldset>
       </form>
@@ -171,6 +175,8 @@ relies on the form created that allows user input and will store them for php
               <th>Type</th>
               <th>Date</th>
               <th>BMI</th>
+              <th>Food/Drink</th>
+              <th>Calories</th>
               <th>Delete?</th>
             </tr>
           </thead>
