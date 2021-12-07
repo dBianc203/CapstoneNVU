@@ -2,13 +2,13 @@
 // Initialize the session
 session_start();
 
-// Unset all of the session variables
+// Frees all session variables from logging in
 $_SESSION = array();
 
 // Destroy the session.
 session_destroy();
 
-// Redirect to login page
+// Redirect the user to the login page
 header("location: login.php");
 exit;
 ?>
