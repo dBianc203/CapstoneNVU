@@ -1,5 +1,5 @@
 <?php
-// Include config file
+// Include connection file
 require_once "connect.php";
 
 // Define variables and initialize with empty values
@@ -9,27 +9,21 @@ $username_err = $password_err = $confirm_password_err = "";
 // Processing form data when form is submitted
 if($_SERVER["REQUEST_METHOD"] == "POST"){
 
-    // Validate username
+    // Validate the username
     if(empty(trim($_POST["username"]))){
         $username_err = "Please enter a username.";
     } elseif(!preg_match('/^[a-zA-Z0-9_]+$/', trim($_POST["username"]))){
         $username_err = "Username can only contain letters, numbers, and underscores.";
     } else{
-        // Prepare a select statement
         $sql = "SELECT id FROM users WHERE username = ?";
-
         if($stmt = mysqli_prepare($link, $sql)){
-            // Bind variables to the prepared statement as parameters
             mysqli_stmt_bind_param($stmt, "s", $param_username);
-
-            // Set parameters
             $param_username = trim($_POST["username"]);
-
-            // Attempt to execute the prepared statement
             if(mysqli_stmt_execute($stmt)){
-                /* store result */
+                //store result
                 mysqli_stmt_store_result($stmt);
 
+                //if the username already exists, display this message to the user
                 if(mysqli_stmt_num_rows($stmt) == 1){
                     $username_err = "This username is already taken.";
                 } else{
@@ -73,11 +67,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             // Bind variables to the prepared statement as parameters
             mysqli_stmt_bind_param($stmt, "ss", $param_username, $param_password);
 
-            // Set parameters
             $param_username = $username;
-            $param_password = password_hash($password, PASSWORD_DEFAULT); // Creates a password hash
-
-            // Attempt to execute the prepared statement
+            $param_password = password_hash($password, PASSWORD_DEFAULT);
             if(mysqli_stmt_execute($stmt)){
                 // Redirect to login page
                 header("location: login.php");
@@ -98,7 +89,6 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
     <title>Sign Up</title>
 
     <style>
