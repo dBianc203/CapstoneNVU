@@ -1,4 +1,5 @@
 <?php
+// Referenced CIS4520 final project/ login system for banking page
 // Initialize the session
 session_start();
 
