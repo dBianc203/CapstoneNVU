@@ -51,7 +51,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                     mysqli_stmt_bind_result($stmt, $id, $username, $hashed_password);
                     if(mysqli_stmt_fetch($stmt)){
                         if(password_verify($password, $hashed_password)){
-
+                            // Password is correct, so start a new session
+                          //  session_start();
                             // Store data in session variables
                             $_SESSION["loggedin"] = true;
                             $_SESSION["id"] = $id;
@@ -88,18 +89,18 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 <head>
     <title>Login</title>
     <style>
-         form {
-             border: 3px solid #f1f1f1;
-         }
-         input[type=text],
-         input[type=password] {
-             width: 100%;
-             padding: 12px 20px;
-             margin: 8px 0;
-             display: inline-block;
-             border: 1px solid #ccc;
-             box-sizing: border-box;
-         }
+     form {
+         border: 3px solid #f1f1f1;
+     }
+     input[type=text],
+     input[type=password] {
+         width: 100%;
+         padding: 12px 20px;
+         margin: 8px 0;
+         display: inline-block;
+         border: 1px solid #ccc;
+         box-sizing: border-box;
+     }
 
          .container {
              padding: 16px;
@@ -119,12 +120,12 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         ?>
 
         <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
-            <div class="form-group">
+            
                 <label>Username</label>
                 <input type="text" name="username" class="container <?php echo (!empty($username_err)) ? 'is-invalid' : ''; ?>" value="<?php echo $username; ?>">
                 <span class="invalid-feedback"><?php echo $username_err; ?></span>
-            </div>
-            <div class="form-group">
+            
+           
                 <label>Password</label>
                 <input type="password" name="password" class="container <?php echo (!empty($password_err)) ? 'is-invalid' : ''; ?>">
                 <span class="invalid-feedback"><?php echo $password_err; ?></span>
@@ -132,7 +133,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             <div class="container">
                 <input type="submit" value="Login">
             </div>
-            <p>Don't have an account? <a href="register.php">Sign up now</a>.</p>
+            <a href="NewUser.php">Sign up now</a>
         </form>
     </div>
 </body>
