@@ -20,12 +20,19 @@ var workout = function() {
       var row = table.insertRow();
       totalMin += parseInt(workout[w]['Time']);
       //insert cell into the row given by user input labeled inside the html form
+      // Insert a cell in the row at index 0, this being time
       row.insertCell(0).innerHTML = workout[w]['Time'] + 'm';
+      // Insert a cell in the row at index 1 (the type of muscle worked)
       row.insertCell(1).innerHTML = workout[w]['Type'];
+      // Insert a cell in the row at index 2 (date entered by user)
       row.insertCell(2).innerHTML = decodeURIComponent(workout[w]['Date']);
-      row.insertCell(3).innerHTML = decodeURIComponent(workout[w]['BMI']);
-      row.insertCell(4).innerHTML = decodeURIComponent(workout[w]['Food']);
-      row.insertCell(5).innerHTML = decodeURIComponent(workout[w]['Calories']);
+      // Insert a cell in the row at index 3 (BMI)
+      row.insertCell(3).innerHTML = workout[w]['BMI'];
+      // Insert a cell in the row at index 4 (Food eaten by user)
+      row.insertCell(4).innerHTML = workout[w]['Food'];
+      // Insert a cell in the row at index 5 (calories eaten)
+      row.insertCell(5).innerHTML = workout[w]['Calories'];
+      // Insert a cell in the row at index 6 (Delete row option)
       row.insertCell(6).innerHTML = '<button  type=\'button\' class=\'delete\' value=' + w + '> &#x268A; </button>';
     }
     //displays the total number of minutes the user exercised based on the form
