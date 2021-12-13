@@ -54,6 +54,7 @@ This will be the main part of the website. Here you can enter your workouts and 
 11/26/2021 - Added a footer to the website for navigation
 # References
 “About Adult BMI.” Centers for Disease Control and Prevention. Centers for Disease Control and Prevention, August 27, 2021. https://www.cdc.gov/healthyweight/assessing/bmi/adult_bmi/index.html. <br />
-“CDC - Calculating BMI Using the English System - BMI for Age Training Course - DNPAO.” Centers for Disease Control and Prevention. Centers for Disease Control and Prevention, May 9, 2014. https://www.cdc.gov/nccdphp/dnpao/growthcharts/training/bmiage/page5_2.html. <br />
 “About Child &amp; Teen BMI.” Centers for Disease Control and Prevention, Centers for Disease Control and Prevention, 17 Mar. 2021, https://www.cdc.gov/healthyweight/assessing/bmi/childrens_bmi/about_childrens_bmi.html#percentile. <br />
-Bakken, Stig Sæther. PHP Manual. IUniverse.com, Inc., 2000. 
+Bakken, Stig Sæther. PHP Manual. IUniverse.com, Inc., 2000. <br />
+“CDC - Calculating BMI Using the English System - BMI for Age Training Course - DNPAO.” Centers for Disease Control and Prevention. Centers for Disease Control and Prevention, May 9, 2014. https://www.cdc.gov/nccdphp/dnpao/growthcharts/training/bmiage/page5_2.html. <br />
+Infinity. “How to Create a Mysql Database on 000webhost.” 000webhost Forum, 13 Nov. 2016, https://www.000webhost.com/forum/t/how-to-create-a-mysql-database-on-000webhost/39142?__cf_chl_jschl_tk__=38bMoPFBVl_zR9bddE0GSyH0kegwLFa3mffqRfLAYvk-1639378602-0-gaNycGzNCuU. 
