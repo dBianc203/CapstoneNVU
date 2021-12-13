@@ -4,11 +4,11 @@ LINK ADDRESS: https://biancfitness.000webhostapp.com/
 
 Capstone Project for NVU. This project is a website that allows users to keep track of their workouts along with keeping track of their BMI
 
-![](READMEimages/NavBar.jpg)
+![](ReadMeIMAGES/NavBar.jpg)
 This bar will bring bring the user to the part of the page that they click on, so that they dont have to scroll down to whatever part of the page they want to be at. Should have it so that the bar stays on the top of the users screen regardless of what page they are on, and not just the home page.
 12/12/2021 - User will have the options to select Home, About Us, Contact Us, Your Workouts, Workout History, Login, and Logout
 
-![](READMEimages/BMIpage.jpg)
+![](ReadMeIMAGES/BMIpage.jpg)
 The first page you'll see when entering the website is the home page, this is where you'll enter all your information. Things like your height,weight, and age will all be taken into consideration when calculating your BMI.
 
 EDIT 11/1/2021 The home page will now allow you to calculate your BMI based on the info given, and then display your BMI at the bottom of the home page. BMI is calculated using the following formula: [[weight (lb) / height (in) / height (in)] x 703] (CDC)
@@ -19,18 +19,18 @@ Added BMI status that displays interpritation based on BMI numbers calculated an
 
 EDIT 12/06/2021
 Added a login system with PHP that will log the user in if the user has an account in the MySQL database
-![](READMEimages/Login.jpg)
+![](ReadMeIMAGES/Login.jpg)
 
-![](READMEimages/WelcomeLogin.jpg)
+![](ReadMeIMAGES/WelcomeLogin.jpg)
 If the user successfully logins, it will bring them to this page to indicate everything worked out 
 
-![](READMEimages/Signup.jpg)
+![](ReadMeIMAGES/Signup.jpg)
 Page that allows user to create a username and password that is inserted into the MySQL database
 
-![](READMEimages/AboutUs.jpg)
+![](ReadMeIMAGES/AboutUs.jpg)
 The about us page is brief, just a generic page that basically explains why this website/project exists and what it's meant to do.
 
-![](READMEimages/ContactUs.jpg)
+![](ReadMeIMAGES/ContactUs.jpg)
 The Contact us page will be used for any user that has questions related to the site, currently there is a form setup to enter your name,email, and subject of what you want to send. The final version will have a full-functional form used to send an email to a certain destination.
 
 EDIT 11/1/2021: Looking for a hosting service so that I can run the php script that will successfully send me an email through the contact form. will update and post link to working link that will run code
@@ -41,16 +41,16 @@ Removed form that sends email, currently having issues with hosting site and sen
 EDIT 11/24/2021
 Form has been restored and SUCCESSFULLY sends an email from the messanger *PROOF BELOW*
 
-![](READMEimages/EmailTest.jpg)
+![](ReadMeIMAGES/EmailTest.jpg)
 
-![](READMEimages/YourWorkouts.jpg)
+![](ReadMeIMAGES/YourWorkouts.jpg)
 This will be the main part of the website. Here you can enter your workouts and view pastworkouts aswell. Right now, there is nothing but the finished version will have a working system where you can log your exercises.Most of the project work will focus on this part of the website, everything above is more for aesthetics.
 
-![](READMEimages/WorkoutHistory.jpg)
+![](ReadMeIMAGES/WorkoutHistory.jpg)
 11/23/2021 - Displays history of workouts 
 
 
-![](READMEimages/Footer.jpg)
+![](ReadMeIMAGES/Footer.jpg)
 11/26/2021 - Added a footer to the website for navigation
 # References
 “About Adult BMI.” Centers for Disease Control and Prevention. Centers for Disease Control and Prevention, August 27, 2021. https://www.cdc.gov/healthyweight/assessing/bmi/adult_bmi/index.html. <br />
