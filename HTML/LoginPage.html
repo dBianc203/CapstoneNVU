@@ -184,7 +184,18 @@ relies on the form created that allows user input and will store them for php
           </tbody>
         </table>
       </fieldset>
-    <section id="resultTotalMin"></section>
+          <script>
+          function save(){
+        var tabelaContent = document.getElementById("Table").innerHTML; 
+        localStorage.setItem("tabelaContent",tabelaContent);
+    }
+    function retrieve(){
+    document.getElementById("Table").innerHTML = localStorage.getItem("tabelaContent");
+    }
+      </script>
+   <section id="resultTotalMin"></section>
+     <button id="sav" onclick="save()">save content to local storage</button>
+  <button id="res" onclick="retrieve()">Restore content  from local storage</button>
   </div>
   <!-- need to update script name/ janky on hosting site may need to 
   change file location for it to work -->
