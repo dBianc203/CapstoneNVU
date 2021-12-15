@@ -57,4 +57,5 @@ This will be the main part of the website. Here you can enter your workouts and 
 “About Child &amp; Teen BMI.” Centers for Disease Control and Prevention, Centers for Disease Control and Prevention, 17 Mar. 2021, https://www.cdc.gov/healthyweight/assessing/bmi/childrens_bmi/about_childrens_bmi.html#percentile. <br />
 Bakken, Stig Sæther. PHP Manual. IUniverse.com, Inc., 2000. <br />
 “CDC - Calculating BMI Using the English System - BMI for Age Training Course - DNPAO.” Centers for Disease Control and Prevention. Centers for Disease Control and Prevention, May 9, 2014. https://www.cdc.gov/nccdphp/dnpao/growthcharts/training/bmiage/page5_2.html. <br />
-Infinity. “How to Create a Mysql Database on 000webhost.” 000webhost Forum, 13 Nov. 2016, https://www.000webhost.com/forum/t/how-to-create-a-mysql-database-on-000webhost/39142?__cf_chl_jschl_tk__=38bMoPFBVl_zR9bddE0GSyH0kegwLFa3mffqRfLAYvk-1639378602-0-gaNycGzNCuU. 
+Infinity. “How to Create a Mysql Database on 000webhost.” 000webhost Forum, 13 Nov. 2016, https://www.000webhost.com/forum/t/how-to-create-a-mysql-database-on-000webhost/39142?__cf_chl_jschl_tk__=38bMoPFBVl_zR9bddE0GSyH0kegwLFa3mffqRfLAYvk-1639378602-0-gaNycGzNCuU. <br />
+“Window.localStorage - Web Apis: MDN.” Web APIs | MDN, 14 Sept. 2021, https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage. 
